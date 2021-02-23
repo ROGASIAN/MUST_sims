@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background:lightblue;
+    padding: 25px;
+    top: 0px;
+    
+    width: 100%;
+    
+}
+header .pic{
+   width: 20%; 
+   float: left;
+   margin-top: -22px;
+   
+
+}
+header .para{
+    width: 70%;
+    float: left;
+    color: white;
+    font-size:20px;
+}
+header .para2{
+    width: 70%;
+    float: left;
+    color:white;
+    font-size:15px;
+}
+.main-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.main-right{
+    width: 50%;
+    border-left: 3px solid black;
+    height: 300px;
+    float: left;
+    margin-left: 2%;
+   
+}
+input{
+    display:block;
+    margin-left: 2%;
+    width: 70%;
+    text-align:left;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=checkbox]{
+    display: inline-block;
+    width: 0px;
+    
+}
+.main-right p{
+    margin-left: 2%;
+    color: grey;
+
+}
+.main-right label{
+    margin-left: 2%;
+    color: grey;
+    font-size: 20px;
+}
+.main-right .log{
+    color: black;
+    font-size: 28px;
+}
+.main-right .alart{
+    margin-left: 1px;
+    color: red;
+}
+input[type=submit]{
+    width: 10%;
+    margin-right: 30%;
+    padding: 2px 3px;
+    float: right;
+}
+.main-left p{
+font-size: 17px;
+}
+footer{
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    background-color: lightblue;
+    padding: 20px;
+}
+.fot1{
+
+    width: 60%;
+    float:left;
+
+}
+.fot{
+     width: 40%;
+     float: left;
+}
+@media screen and (max-width:882px){
+
+    
+   .fot{
+       visibility: hidden;
+   }
+    .fot1{
+        width:100%;
+        text-align: center;
+    }
+
+}
